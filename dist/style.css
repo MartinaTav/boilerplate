@@ -1,2 +1,2 @@
-html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{background:#3b3b70;color:#fff;display:grid}
+html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{height:100vh;background:#3b3b70;color:#fff;display:flex;justify-content:center;align-items:center}
 /*# sourceMappingURL=style.css.map */

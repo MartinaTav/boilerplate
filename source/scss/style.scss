@@ -11,8 +11,12 @@ html {
 $color: rgb(59, 59, 112);
 
 body {
+    height: 100vh;
     background: $color;
     color: #fff;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
