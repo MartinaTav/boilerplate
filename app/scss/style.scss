@@ -6,3 +6,13 @@ html {
     box-sizing: inherit;
 }
 
+// just to try that everything works
+
+$color: rgb(59, 59, 112);
+
+body {
+    background: $color;
+    color: #fff;
+    display: grid;
+}
+

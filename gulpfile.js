@@ -13,7 +13,8 @@ const browserSync = require('browser-sync').create();
 // File path variables
 const files = {
     scssPath: 'app/scss/**/*.scss',
-    jsPath: 'app/js/**/*.js'
+    jsPath: 'app/js/**/*.js',
+    htmlPath: './**/*.html'
 }
 
 // Sass task
@@ -53,7 +54,7 @@ function watchTask() {
             baseDir: './'
         }
     })
-    watch([files.scssPath, files.jsPath],
+    watch([files.scssPath, files.jsPath, files.htmlPath],
         parallel(scssTask, jsTask));
 }
 
