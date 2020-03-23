@@ -1,1 +1,1 @@
-var menuBtn=document.querySelector(".menu-btn"),showMenu=!1;function toggleMenu(){showMenu=showMenu?(menuBtn.classList.remove("close"),!1):(menuBtn.classList.add("close"),!0)}menuBtn.addEventListener("click",toggleMenu);
+const menuBtn=document.querySelector(".menu-btn");let showMenu=!1;function toggleMenu(){showMenu?(menuBtn.classList.remove("close"),showMenu=!1):(menuBtn.classList.add("close"),showMenu=!0)}menuBtn.addEventListener("click",toggleMenu);
