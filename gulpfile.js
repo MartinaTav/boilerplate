@@ -7,7 +7,7 @@ const postcss = require('gulp-postcss');
 const replace = require('gulp-replace');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
-const uglify = require('gulp-uglify');
+const uglify = require('gulp-uglify-es').default;
 const browserSync = require('browser-sync').create();
 
 // File path variables
